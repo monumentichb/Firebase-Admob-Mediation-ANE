@@ -11,13 +11,11 @@ Support Admob,Chartboost,Inmobi,UnityAds,Vungle,GDT
 
     Admob.getInstance().showBanner("your banner id",AdmobSize.BANNER_320x50,AdmobPosition.BOTTOM_CENTER);
 
-
 The AdmobPosition class specifies where to place the banner. AdmobSize specifies witch size banner to show    
 
 #### Remove Firebase Admob Banner 
 
     Admob.getInstance().hideBanner();
-
 
 #### Show Admob Native Express Ads    
 Native express ads is a admob new ad format similar to banner,How to show native express ads in flash air ios and android application?
@@ -33,7 +31,6 @@ AdSize is the value you set in apps.admob.com
 ```
     Admob.getInstance().hideNativeBanner();
 ```
-
 #### Show multi banner or native banner at same screen.
 if you want to show multi banner at same screen ,set the name of banner as follow.
 
@@ -48,8 +45,7 @@ if you want to show multi banner at same screen ,set the name of banner as follo
     Admob.getInstance().cacheInterstitial("interstitial id"); 
 ```
 interstitials need to be loaded before shown. show at an appropriate     
-stopping point in your app, check that the interstitail is ready before     
-showing it:
+stopping point in your app, check that the interstitail is ready before  showing it:
 ```
     if (Admob.getInstance().isInterstitialReady()) {
       Admob.getInstance().showInterstitial();
@@ -80,8 +76,6 @@ Firebase admob ane supports all admob native event,you can handle as following
 		}
 	}
 ```
-
-
 
 ####  IOS  permission config
 NSAppTransportSecurity is required for ios 9,to allow http request,it is required to add NSAppTransportSecurity key
@@ -157,13 +151,8 @@ NSAppTransportSecurity is required for ios 9,to allow http request,it is require
     </android>
 ```
 
-```
-
 ####  ANE ID
-```
-<extensionID>com.google.firebase.admob</extensionID>
-```
-
+        <extensionID>com.google.firebase.admob</extensionID>
 
 Firebase admob mediation ane project home
 https://github.com/monumentichb/Firebase-Admob-Mediation-ANE
