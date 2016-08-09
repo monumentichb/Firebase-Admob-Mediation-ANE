@@ -1,19 +1,16 @@
 Firebase Admob Mediation ANE For Adobe Air
 ==============================
-Google Firebase Admob  Ane  provides a way to integrate firebase admob ads in flash air app with the last firebase sdk 9.2.     
-Google Firebase Admob Ane provides as3 api for flex and flash developer,not need java or oc.     
-Support banner,Intersitial,native express ads,Video     
-Support ios and android     
-Support Admob,Chartboost,Inmobi,UnityAds,Vungle,GDT     
+Google Firebase Admob Mediation Ane provides as3 api for flex and flash developer 
+to integrate admob,unityads,inmobi,chartboost,vunlge and gdt into adobe air ios and android app ,support banner Ad,Interstitial Ad,Native Express Ad and Video ,not need java or oc.Support banner,Intersitial,native express ads,Video     
 
 ## Quick Start
-#### Display firebase Admob Banner  in as3 
+#### Display firebase  Banner Ads in as3 
 
     Admob.getInstance().showBanner("your banner id",AdmobSize.BANNER_320x50,AdmobPosition.BOTTOM_CENTER);
 
 The AdmobPosition class specifies where to place the banner. AdmobSize specifies witch size banner to show    
 
-#### Remove Firebase Admob Banner 
+#### Remove Firebase Admob Mediation Banner 
 
     Admob.getInstance().hideBanner();
 
@@ -86,7 +83,6 @@ NSAppTransportSecurity is required for ios 9,to allow http request,it is require
 			 <true/>
 			</dict>
 ```
-
 #### Android permission config
 ```
 <android>
